@@ -77,7 +77,8 @@ class KNearestNeighbor(object):
                 #####################################################################
                 # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-                pass
+                L2_distance = np.sqrt(np.sum(np.square(X[i] - self.X_train[j])))
+                dists[i,j] = L2_distance
 
                 # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         return dists
@@ -150,7 +151,7 @@ class KNearestNeighbor(object):
           test data, where y[i] is the predicted label for the test point X[i].
         """
         num_test = dists.shape[0]
-        y_pred = np.zeros(num_test)
+        y_pred = np.zeros((num_test,1))
         for i in range(num_test):
             # A list of length k storing the labels of the k nearest neighbors to
             # the ith test point.
@@ -164,7 +165,9 @@ class KNearestNeighbor(object):
             #########################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-            pass
+            sorted_indexes_array = np.argsort(dists[i])
+            closest_k_indexes = sorted_indexes_array[:k]
+            closest_y = self.y_train[closest_k_indexes]
 
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
             #########################################################################
@@ -175,8 +178,12 @@ class KNearestNeighbor(object):
             # label.                                                                #
             #########################################################################
             # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-
-            pass
+            
+            # return the number of times each unique item appears in array
+            unique_labels, votes = np.unique(closest_y, return_counts=True)
+            y_pred[i] = unique_labels[np.argmax(votes)]
+            
+            
 
             # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
