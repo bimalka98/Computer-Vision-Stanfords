@@ -1,6 +1,7 @@
-## *All the code bases, descriptions available in this repository, were directly taken from the respective course pages of the [Stanford Universiy](https://www.stanford.edu/) for my personal reference.*
+> This repository is abandoned, and no longer maintained.
 
-❄
+## *Descriptions available in this repository, were directly taken from the respective course pages of the [Stanford Universiy](https://www.stanford.edu/) for my personal reference.*
+
 ### *Stanford's [CS131](http://vision.stanford.edu/teaching/cs131_fall2021/index.html): Computer Vision: Foundations and Applications*
 
 *"Ever wonder how robots can navigate space and perform duties, how search engines can index billions of images and videos, how algorithms can diagnose medical images for diseases, how self-driving cars can see and drive safely or how instagram creates filters or snapchat creates masks? In this class, we will explore all of these technologies and learn to prototype them. Lying in the heart of these modern AI applications are computer vision technologies that can perceive, understand and reconstruct the complex visual world. Computer Vision is one of the fastest growing and most exciting AI disciplines in today’s academia and industry. This 10-week course is designed to open the doors for students who are interested in learning about the fundamental principles and important applications of computer vision. We will expose students to a number of real-world applications that are important to our daily lives. More importantly, we will guide students through a series of well designed projects such that they will get to implement a few interesting and cutting-edge computer vision algorithms."*
@@ -30,7 +31,6 @@
 19. [Lecture #19: Introduction to Deep Learning](https://nbviewer.jupyter.org/github/StanfordVL/cs131_notes/blob/master/lecture19/lecture19.pdf)
 20. [Lecture #20: Convolutional Neural Networks](https://nbviewer.jupyter.org/github/StanfordVL/cs131_notes/blob/master/lecture20/Lecture%2020.pdf)
 
-❄
 ### *Stanford's [CS231A](https://web.stanford.edu/class/cs231a/): Computer Vision, From 3D Reconstruction to Recognition*
 
 *"An introduction to concepts and applications in computer vision primarily dealing with geometry and 3D understanding. Topics include: cameras and projection models, low-level image processing methods such as filtering and edge detection; mid-level vision topics such as segmentation and clustering; shape reconstruction from stereo; high-level vision topics such as learned low-level visual representations; depth estimation and optical/scene flow; 6D pose estimation and object tracking. Prerequisites: linear algebra, basic probability and statistics."*
@@ -38,7 +38,6 @@
 * [Syllabus and Code bases](https://web.stanford.edu/class/cs231a/syllabus.html)
 
 
-❄
 ### *Stanford's [CS231n](http://cs231n.stanford.edu/): Convolutional Neural Networks for Visual Recognition*
 
 *"Computer Vision has become ubiquitous in our society, with applications in search, image understanding, apps, mapping, medicine, drones, and self-driving cars. Core to many of these applications are visual recognition tasks such as image classification, localization and detection. Recent developments in neural network (aka “deep learning”) approaches have greatly advanced the performance of these state-of-the-art visual recognition systems. This course is a deep dive into the details of deep learning architectures with a focus on learning end-to-end models for these tasks, particularly image classification. During the 10-week course, students will learn to implement and train their own neural networks and gain a detailed understanding of cutting-edge research in computer vision. Additionally, the final assignment will give them the opportunity to train and apply multi-million parameter networks on real-world vision problems of their choice. Through multiple hands-on assignments and the final course project, students will acquire the toolset for setting up deep learning tasks and practical engineering tricks for training and fine-tuning deep neural networks."*
